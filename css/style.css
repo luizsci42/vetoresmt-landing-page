@@ -12096,6 +12096,14 @@ Services
 Works
 ================================= */
 
+/*
+.thumb {
+  max-width: 500px;
+  max-height: 500px;
+  width: auto;
+  height: auto;
+}
+*/
 
 .lb-album{
 	margin-left:40px;
