@@ -11972,7 +11972,7 @@ Intro
     height:635px;
     width:100%;
     background-color: #1bcfb4;
-    background-image: url(../img/bg-mac.png);
+    background-image: url(../img/bg-mac-org.png);
     background-position:center;
     background-repeat:no-repeat;
     overflow-y:hidden;
@@ -11980,7 +11980,17 @@ Intro
     position:relative;
 }
 
-
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 800px;
+  width: 800px;
+  background-image: url(../img/outra-imagem.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
 .intro-text {
 	position:relative;
@@ -12104,6 +12114,19 @@ Works
   height: auto;
 }
 */
+.logo {
+  width: 50px; /* define a largura da imagem em 200 pixels */
+  height: auto; /* mantém a proporção da imagem, ajustando a altura automaticamente */
+}
+
+.logo-minor {
+  width: 20px;
+  height: auto;
+}
+
+#ufs {
+  float: right;
+}
 
 .lb-album{
 	margin-left:40px;
