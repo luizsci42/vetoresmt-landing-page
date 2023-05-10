@@ -52,10 +52,22 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 	font-family: 'Montserrat', sans-serif;
 }
 
+div#footer{
+  width: 300px;
+}
 div.func{
   margin: 20px;
 }
 
+img#logo-dcomp{
+  float: right;
+}
+
+img.logo-footer{
+  height: 100px;
+
+  margin: 20px;
+}
 img.func{
   width: 32px;
   height: 32px;
@@ -12139,18 +12151,10 @@ Works
   height: auto;
 }
 */
-.logo {
-  width: 50px; /* define a largura da imagem em 200 pixels */
-  height: auto; /* mantém a proporção da imagem, ajustando a altura automaticamente */
-}
 
 .logo-minor {
   width: 20px;
   height: auto;
-}
-
-#ufs {
-  float: right;
 }
 
 .texto {
