@@ -11967,6 +11967,12 @@ section#contact form#contactForm :-ms-input-placeholder {
 /* ================================
 Intro
 ================================= */
+
+img#logo{
+  height: 50px;
+  width: 50px;
+
+}
 div#text-content{
   margin-top: -150px;
 }
