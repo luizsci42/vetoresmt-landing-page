@@ -11967,12 +11967,23 @@ section#contact form#contactForm :-ms-input-placeholder {
 /* ================================
 Intro
 ================================= */
+div#text-content{
+  margin-top: -150px;
+}
+
+h1#title{
+  font-weight: bold;
+  font-size: 50px;
+}
+
+h2#subtitle{
+  font-weight: normal;
+}
 
 #intro{
-    height:635px;
+    height:200px;
     width:100%;
     background-color: #1bcfb4;
-    background-image: url(../img/bg-mac.png);
     background-position:center;
     background-repeat:no-repeat;
     overflow-y:hidden;
